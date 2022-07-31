@@ -1,0 +1,57 @@
+:root {
+    --matrixSize: 16;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 0.5rem 1rem;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: calc((50px + 0.5rem) * var(--matrixSize) + 1rem);
+    text-align: center;
+}
+main {
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    margin: 1rem;
+}
+
+input {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.grid,
+.grid__container {
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(var(--matrixSize), 50px);
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+.grid__container {
+    grid-template-columns: initial;
+    grid-template-rows: repeat(var(--matrixSize), 50px);
+}
+
+.grid__square {
+    height: 50px;
+    width: 50px;
+    background: rgb(95, 158, 160);
+    transition: all 0.3s ease 0s;
+}
+
+.grid__square:hover {
+    background: khaki;
+    transition: all 0.3s ease 0s;
+}

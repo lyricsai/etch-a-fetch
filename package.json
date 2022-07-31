@@ -1,0 +1,22 @@
+{
+    "name": "etch",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lyricsai/etch-a-fetch.git"
+    },
+    "keywords": [
+        "sketch"
+    ],
+    "author": "Anastasiya Litvinenka",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lyricsai/etch-a-fetch/issues"
+    },
+    "homepage": "https://github.com/lyricsai/etch-a-fetch/"
+}
